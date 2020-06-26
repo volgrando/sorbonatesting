@@ -2072,11 +2072,11 @@ body.dark .header.header-fixed .logo a img.logo-dark {
 ---------------------------------------- */
 
 .testimonials {
-    background: url(https://images.pexels.com/photos/167682/pexels-photo-167682.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background: url(../img/sections/testimonials-bg.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 110%;
+    background-size: cover;
 }
 .testimonials #quote-carousel {
     margin-top: 50px;
@@ -3993,9 +3993,4 @@ body.skew .portfolio .container  {
 .sunmood {
   background: #fff !important;
   transition: 0.8s;
-}
-
-.logocustom{
-  height: 80px !important;
-  width: 80px !important;
 }
