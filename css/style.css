@@ -1691,7 +1691,7 @@ body.dark .header.header-fixed .logo a img.logo-dark {
   right: 0;
   height: 100%;
   z-index: 999999999999999999;
-  background: #fff;
+  background: #cecece;
   text-align: center;
   overflow: hidden;
   opacity: 1;
@@ -3918,79 +3918,39 @@ body.skew .portfolio .container  {
   color: #db0019 !important;
 }
 
+.frontred-b{
+  color: #db0019 !important;
+}
+
+.frontred-b:hover{
+  text-decoration: underline !important;
+}
+
 .colorborder{
   border: solid 3px red !important;
 }
 
-.bxslider{
-  visibility: hidden;
+.oculto{
+  visibility: hidden !important;
 }
 
-.darkmood {
-  margin-left: 100px;
+.colored{
+  color: red !important;
+  background-color: red !important;
 }
 
-.onoffswitch {
-  position: relative;
-  width: 76px;
+.clh{
+  line-height: 2rem;
 }
 
-.onoffswitch-checkbox {
-  display: none;
+.comprom{
+  width: 20rem;
 }
 
-.onoffswitch-label {
-  display: block;
-  overflow: hidden;
-  cursor: pointer;
-  height: 28px;
-  padding: 0;
-  line-height: 28px;
-  border: 0px solid #E3E3E3;
-  border-radius: 45px;
-  background-color: #d8d4d4;
+.visihidden{
+  visibility: hidden !important;
 }
 
-.onoffswitch-label:before {
-  content: "";
-  display: block;
-  width: 45px;
-  margin: -8.5px;
-  background: #e2e0e0;
-  background-image: url(http://s5.picofile.com/file/8396607192/sun.png);
-  transition: 0.8s;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 44px;
-  border-radius: 45px;
-  box-shadow: 0 6px 12px 0px #757575;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label {
-  background-color: #2c3159;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-  border-color: black;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-  margin-left: 0;
-}
-
-.onoffswitch-checkbox:checked + .onoffswitch-label:before {
-  right: 0px;
-  background-image: url(http://s4.picofile.com/file/8396607276/moon.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #2d325a;
-  box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
-}
-
-.sunmood {
-  background: #fff !important;
-  transition: 0.8s;
+.anticursive{
+  font-style: normal !important;
 }
